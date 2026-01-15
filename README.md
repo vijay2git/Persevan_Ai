@@ -1,20 +1,61 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# Persevan AI 🤖📚
 
-# Run and deploy your AI Studio app
+**Persevan AI** is an AI-powered **study and interview preparation chatbot** designed to help students and job aspirants learn concepts, revise topics, and practice interview questions through natural, interactive conversations.
 
-This contains everything you need to run your app locally.
+It combines conversational AI with retrieval-based learning to deliver accurate, contextual, and structured responses—making learning smarter and interview prep more effective.
 
-View your app in AI Studio: https://ai.studio/apps/drive/1Wcf26GrOtDYR-1f4-fR_7mBhDqO9jCTs
+---
 
-## Run Locally
+## 🚀 Features
 
-**Prerequisites:**  Node.js
+- 🧠 **Study Assistant**
+  - Concept explanations in simple and clear language
+  - Topic-wise learning support
+  - Quick revision summaries
 
+- 🎯 **Interview Preparation Mode**
+  - Technical and HR interview questions
+  - Follow-up and scenario-based questions
+  - Clear, structured answers with explanations
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+- 🔍 **Retrieval-Augmented Generation (RAG)**
+  - Uses curated datasets and documents
+  - Reduces hallucinations
+  - Improves factual accuracy
+
+- 💬 **Conversational Interface**
+  - Chat-based interaction
+  - Context-aware responses
+  - Multiple modes (Study / Interview)
+
+- ⚡ **Real-Time Responses**
+  - Fast and interactive AI replies
+  - Smooth frontend experience
+
+---
+
+## 🛠 Tech Stack
+
+### Frontend
+- React.js
+- Tailwind CSS
+- Axios
+
+### Backend
+- Python
+- FastAPI
+- Uvicorn
+
+### AI / ML
+- Large Language Models (LLMs)
+- Retrieval-Augmented Generation (RAG)
+- Vector embeddings
+
+### Database / Storage
+- Vector Database (FAISS / ChromaDB)
+- JSON / CSV datasets
+
+---
+
+## 🏗 System Architecture
+
