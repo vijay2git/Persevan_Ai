@@ -1,0 +1,5 @@
+{
+  "name": "Persevan",
+  "description": "Specialized Tech Mastery AI with Study and Interview modes. Local inference powered by Ollama.",
+  "requestFramePermissions": []
+}
